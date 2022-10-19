@@ -1,0 +1,271 @@
+@font-face {
+    font-family: "Palatino Linotype";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/palatino-linotype-4.woff") format("woff");
+}
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/Poppins-ExtraLight.woff") format("woff");
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Georgia';
+}
+.first-box {
+    height: 350px;
+    background-color: #FAFAFA;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+}
+.header button {
+    cursor: pointer;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    outline: none;
+    background-color: #FAFAFA;
+    padding-left: 30px;
+}
+.header img {
+    width: 70px;
+}
+.welcome {
+   margin-top: 40px;
+   margin-left: 323px;
+}
+.welcome p {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.welcome img {
+    margin-left: -4px;
+}
+.second-box {
+    background-color: #f6f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 106px 0px 106px 0px;
+}
+.items {
+    width: 800px;
+    display: grid;
+    left: 50%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+.grid-item {
+    grid-column:span 3;
+    background-color: white;
+    box-sizing: border-box;
+}
+.first-item {
+    grid-row: 1 / span 2;
+    grid-column: 1 / 5;
+    
+}
+.second-item {
+    grid-column: 5 / 7;
+}
+.custom {
+    grid-column:span 2;
+  }
+.grid-item img {
+    width: 100%;
+}
+.travel {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 26px;
+    padding-top: 13px;
+    color: #353732;
+}
+.travel2 {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 34px;
+    color: #45525B;
+    padding: 20px 0px 20px 25px;
+}
+.travel3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #45525B;
+    padding: 0px 0px 87px 26px
+}
+.dateOfNotes {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #45525B;
+    padding-left: 26px;
+    margin-bottom: 16px;
+}
+.third-box {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 70px 0px;
+}
+.third-box h1 {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #353732;
+    padding-bottom: 10px;
+}
+.name {
+    background: rgba(82, 80, 59, 0.02);
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    width: 376px;
+    height: 38px;
+    margin: -10px 0px 15px 20px;
+}
+.sign {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #353732;
+}
+.email {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #353732;
+    padding: 0px 0px 10px 22px;
+}
+.signUp {
+    background: #353732;
+    border: 1px solid black;
+    border-radius: 6px;
+    width: 82px;
+    height: 38px;
+    margin: -7px 0px 0px 20px;
+}
+.four-box {
+    background-color: #f6f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 110px 0px 110px 0px;
+}
+.items-four {
+    width: 800px;
+}
+.items-blog {
+    display: flex;
+    margin: 20px 0px 0px 0px;
+}
+.items-blog img {
+    border: 1px solid #F8F8F8;
+    border-radius: 10px;
+    width: 200px;
+    height: 122px;
+    margin-right: 10px;
+}
+.nameOfBlog {
+    font-family: 'Palatino Linotype';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #45525B;
+    padding: 0px 0px 6px 0px;
+}
+.textOfBlog {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #45525B;
+    padding: 0px 0px 6px 0px;
+}
+.dateofBlog {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    color: #45525B;
+    padding: 0px 0px 45px 0px;
+}
+.view {
+    text-align: center;
+}
+.view button {
+    outline: none;
+    border: none;
+    background-color: #f6f3f3;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #575445;
+    position: relative;
+    cursor: pointer;
+}
+.view img {
+    padding: 1px 0px 0px 4px;
+    position: absolute;
+    cursor: pointer;
+}
+.footer {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px 100px 0px;
+}
+.footer2 {
+    width: 800px;
+}
+.footer2 p {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #353732;
+    padding-top: 10px;
+}
+.footer2 button {
+    outline: none;
+    border: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #45525B;
+    padding: 28px 27px 0px 0px;
+    background-color: white;
+    cursor: pointer;
+}
